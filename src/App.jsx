@@ -4,6 +4,11 @@ import * as handpose from "@tensorflow-models/handpose"
 import Webcam from "react-webcam"
 import {drawHand} from "./utilities"
 
+//For installing necessary packages
+// npm install @tensorflow/tfjs @tensorflow-models/handpose react-webcam --legacy-peer-deps
+
+//finally done
+//will work on all now
 const App = () => {
   const webcamRef = useRef(null)
   const canvasRef = useRef(null)
