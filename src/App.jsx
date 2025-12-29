@@ -12,6 +12,7 @@ import {drawHand} from "./utilities"
 const App = () => {
   const webcamRef = useRef(null)
   const canvasRef = useRef(null)
+  //Here i did the update
 
   const runHandpose = async () => {
     const net = await handpose.load()
